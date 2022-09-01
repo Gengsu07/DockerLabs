@@ -1,0 +1,3 @@
+#ignore semuaa direktori termasuk subdirektori yg extensi .log
+# jika files/*.log maka hanya direktoru pertama yg di skip yaitu files saja. Subdirektori tidak ikut
+**/*.log

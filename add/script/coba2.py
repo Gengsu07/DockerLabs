@@ -1,0 +1,1 @@
+print('Sedang belajar Docker saat isolasi covid')

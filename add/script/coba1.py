@@ -1,0 +1,1 @@
+print('Hello ini saya sugeg wahyudi')

@@ -1,0 +1,40 @@
+pageInfo:
+  title: Dashboard Aplikasi KPP Madya Jakarta Timur
+  description: Selamat Datang
+  navLinks:
+  - title: Produktivitas
+    path: https://madtimcloud.my.id
+  - title: Documentation
+    path: https://dashy.to/docs
+
+# Optional app settings and configuration
+appConfig:
+  theme: nord-frost
+  customColors:
+    material-dark-original:
+      primary: '#f36558'
+      background: '#39434C'
+      background-darker: '#eb615c'
+      material-light: '#f36558'
+      item-text-color: '#ff948a'
+      curve-factor: 5px
+      enableErrorReporting: true
+      layout: auto
+      iconSize: medium
+      language: id
+
+# Main content - An array of sections, each containing an array of items
+sections:
+- name: Produktivitas
+  icon: fa-solid fa-briefcase-blank
+  items:
+  - title: Nextcloud
+    description: Cloud Storage, Chatting, dan Video Conference
+    icon: hl-nextcloud
+    url: https://madtimcloud.my.id
+    target: newtab
+  - title: Visual Studio Code
+    description: Kolaborasi analisa data/develop aplikasi
+    icon: fa-solid fa-bars-staggered
+    url: vscode:8443
+    target: newtab

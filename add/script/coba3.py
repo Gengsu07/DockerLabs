@@ -1,0 +1,1 @@
+print('di Shelter Covid Hotel Mutiara Malioboro Jogjakarta')
